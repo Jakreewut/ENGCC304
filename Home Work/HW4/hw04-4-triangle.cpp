@@ -18,8 +18,10 @@ int main()
 {
     int H, W;
 
-    printf("Enter H & W :");
-    scanf("%d, %d", &H, &W);
+    printf("Enter H :");
+    scanf("%d", &H);
+    printf("Enter W :");
+    scanf("%d", &W);
 
     float A = (float)(H * W) / 2;
     printf("Triagle Area : %.1f\n", A);

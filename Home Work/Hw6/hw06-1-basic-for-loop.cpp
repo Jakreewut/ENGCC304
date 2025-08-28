@@ -51,7 +51,7 @@ int main()
         {
             printf("(%d) Helloeorld\n", i);
         }
-        else
+        else //ถ้าหารแล้วมีเศษเป็น 0 แสดงเลขคู่ ถ้าไม่ใช่แสดงเลขคู่
         {
             printf("[%d] Hello world\n", i);
         }

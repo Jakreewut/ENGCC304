@@ -30,4 +30,4 @@ int main()
     // output
     printf("%d celsius = %d fahrenhrit\n", celsius, fahrenheit);
     return 0;
-}
+}//end amin

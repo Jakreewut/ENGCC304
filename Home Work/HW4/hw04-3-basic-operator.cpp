@@ -17,8 +17,15 @@ int main()
 {
     int a, b, c;
 
-    printf("please enter vvalue (a b c) : ");
-    scanf("%d, %d, %d", &a, &b, &c);
+    //a
+    printf("please enter vvalue (a) : ");
+    scanf("%d", &a);
+    //b
+    printf("please enter vvalue (b) : ");
+    scanf("%d", &b);
+    //c
+    printf("please enter vvalue (c) : ");
+    scanf("%d", &c);
 
     int d = a + b + c;
     printf("answer = %d ", d);
