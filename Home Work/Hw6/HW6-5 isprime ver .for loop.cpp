@@ -30,7 +30,7 @@ int main() {
                 isPrime = 0; // ถ้าหารลงตัว ไม่ใช่จำนวนเฉพาะ
                 break;
             }
-        }
+        } //end for of j
 
         if (isPrime) {
             printf("%d ", i);
