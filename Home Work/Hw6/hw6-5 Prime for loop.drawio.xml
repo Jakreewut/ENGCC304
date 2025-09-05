@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
+  <diagram name="Page-1" id="xZKMkQI33nln38PHs6Ox">
+    <mxGraphModel dx="1493" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-2" target="EspW_Rd1xRc7o1-hDKjo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;เริ่ม&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="60" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-3" target="EspW_Rd1xRc7o1-hDKjo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-3" value="ป้อนตัวเลขใส่ num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-4" target="EspW_Rd1xRc7o1-hDKjo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-4" value="ให้ i เท่ากับ num" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-5" target="EspW_Rd1xRc7o1-hDKjo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;i มากกว่าหรือเท่ากับ 2 ไหม&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="450" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-7" target="EspW_Rd1xRc7o1-hDKjo-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-7" value="ให้สมมติว่า isPrime = 1 เป็นจำนวนเฉพาะ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-10" target="EspW_Rd1xRc7o1-hDKjo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-10" target="EspW_Rd1xRc7o1-hDKjo-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="950" />
+              <mxPoint x="600" y="1450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-10" value="j น้อยกว่าเท่ากับ i / 2 ไหม" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="890" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-11" target="EspW_Rd1xRc7o1-hDKjo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-11" target="EspW_Rd1xRc7o1-hDKjo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-11" value="j หารเอาเศษ i ไม่มีเศษใช่ไหม" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1080" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-12" target="EspW_Rd1xRc7o1-hDKjo-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-12" target="EspW_Rd1xRc7o1-hDKjo-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-12" value="ถ้า isPrime เท่ากับ 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1390" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-14" value="ให้ isPrime เท่ากับ 0 แล้วหยุด" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1270" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-15" target="EspW_Rd1xRc7o1-hDKjo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-15" value="เพิ่มค่า j 1 ค่า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-16" target="EspW_Rd1xRc7o1-hDKjo-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="1450" />
+              <mxPoint x="20" y="843" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-16" value="ลดค่า i 1 ค่า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="EspW_Rd1xRc7o1-hDKjo-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.0000000000002" y="1670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-21" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;จบ&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1760" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-27" target="EspW_Rd1xRc7o1-hDKjo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="415" y="840" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-38" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%22%20style%3D%22ellipse%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22415%22%20y%3D%22720%22%20width%3D%2220%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1548" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EspW_Rd1xRc7o1-hDKjo-45" target="EspW_Rd1xRc7o1-hDKjo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-45" value="ให้ j เริ่มที่ 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="740" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-50" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1018" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-51" value="ใช่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1208" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-52" value="ไม่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1118" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-54" value="ไม่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="918" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-55" value="แสดงค่า i" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EspW_Rd1xRc7o1-hDKjo-56" value="ไม่" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1418" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
