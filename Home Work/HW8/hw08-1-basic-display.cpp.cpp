@@ -15,10 +15,10 @@ int main()
         printf("Enter number %d : ", i);
         scanf("%f", &num);
         sum += num;
-    }
+    } // end for of avg
     avg = sum / n;
     printf("sum = %.2f \n", sum);
     printf("avg = %.2f \n", avg);
 
     return 0;
-}
+} // end fuction
