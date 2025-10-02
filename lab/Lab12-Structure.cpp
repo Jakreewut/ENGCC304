@@ -21,29 +21,9 @@ struct Student
 } typedef SS;
 
 
-//fucntion student setvalue
+//prototype student setvalue
 struct Student Setvalue(char name[20], int id, float scoresub1,
-                        float scoresub2, float scoresub3, float scoresub4, float scoresub5)
-{
-    SS output;
-    strncpy(output.name, name, sizeof(output.name));
-    output.name[sizeof(output.name)-1] = '\0';
-    output.id = id; 
-
-    output.scoresub1 = scoresub1;
-    output.scoresub2 = scoresub2;
-    output.scoresub3 = scoresub3;
-    output.scoresub4 = scoresub4;
-    output.scoresub5 = scoresub5;
-
-    strcpy(output.grade1, grade(output.scoresub1));
-    strcpy(output.grade2, grade(output.scoresub2));
-    strcpy(output.grade3, grade(output.scoresub3));
-    strcpy(output.grade4, grade(output.scoresub4));
-    strcpy(output.grade5, grade(output.scoresub5));
-
-    return output;
-}
+                        float scoresub2, float scoresub3, float scoresub4, float scoresub5);
 
 //cut grade
 const char* grade(float score)
@@ -93,6 +73,30 @@ int main(void)
         strcpy(student[i].grade5, grade(student[i].scoresub5));
 
     } // end input information student
+ 
+    //fucntion student setvalue
+struct Student Setvalue(char name[20], int id, float scoresub1,
+                        float scoresub2, float scoresub3, float scoresub4, float scoresub5)
+{
+    SS output;
+    strncpy(output.name, name, sizeof(output.name));
+    output.name[sizeof(output.name)-1] = '\0';
+    output.id = id;  
+// Hello \0
+    output.scoresub1 = scoresub1;
+    output.scoresub2 = scoresub2;
+    output.scoresub3 = scoresub3;
+    output.scoresub4 = scoresub4;
+    output.scoresub5 = scoresub5;
+
+    strcpy(output.grade1, grade(output.scoresub1));
+    strcpy(output.grade2, grade(output.scoresub2));
+    strcpy(output.grade3, grade(output.scoresub3));
+    strcpy(output.grade4, grade(output.scoresub4));
+    strcpy(output.grade5, grade(output.scoresub5));
+
+    return output;
+}
 
     // output
     printf("===== REPORT =====\n");

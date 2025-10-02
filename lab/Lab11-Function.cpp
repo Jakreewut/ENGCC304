@@ -7,6 +7,19 @@
 #include <stdio.h>
 #include <math.h> // ใช้ pow() สำหรับยกกำลัง
 
+void armstrong(int) ; 
+
+int main() {
+    int a;
+
+    printf("Enter Number :");
+    scanf("%d", &a);
+
+    armstrong(a);
+
+    return 0;
+} // end main function
+
 void armstrong(int num) {
     int original = num;
     int sum = 0;
@@ -38,14 +51,3 @@ void armstrong(int num) {
         printf("Not pass \n");
     }  
 } //end function armstrong
-
-int main() {
-    int a;
-
-    printf("Enter Number :");
-    scanf("%d", &a);
-
-    armstrong(a);
-
-    return 0;
-} // end main function

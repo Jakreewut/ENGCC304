@@ -2,7 +2,7 @@
 #include <math.h>
 
 int isPrime(int num) {
-    if(num<2) return 0;
+    if(num < 2) return 0;
     for (int i = 2; i <= sqrt(num); i++) {
       if (num % i == 0) return 0;
     }
@@ -12,12 +12,12 @@ int isPrime(int num) {
 int main() {
     int n;
       printf("Enter N : ");
-      scanf("%d",&n);
+      scanf("%d", &n);
 
     int arr[n]; 
       for(int i = 0; i < n; i++ ) {
-          printf("Enter value[%d] : ",i);
-          scanf("%d",&arr[i]);
+          printf("Enter value[%d] : ", i);
+          scanf("%d", &arr[i]);
       }//end for
 
     printf("Index:  ");
@@ -38,4 +38,4 @@ int main() {
      printf("\n");
 
     return 0;
- } //end
+ } //end function

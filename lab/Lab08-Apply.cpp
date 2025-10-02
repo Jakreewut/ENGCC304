@@ -17,6 +17,7 @@ int main()
     printf("Position : "); // ตำแหน่ง
     scanf("%d", &choice);
 
+    //show position
     if (choice >= 1 && choice <= 3)
     {
         printf("You are : %s\n", position[choice]);

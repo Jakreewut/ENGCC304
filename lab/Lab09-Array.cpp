@@ -72,4 +72,4 @@ int main()
 
     } // end for of output Array
     return 0;
-} // end fuction 
+} // end function 

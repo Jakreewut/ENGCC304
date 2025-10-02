@@ -32,7 +32,7 @@ y8uin
 int main()
 {
     // data
-    char employeesid[10];
+    int employeesid[10];
     int working_hs;
     float saraly_hs, total_salary;
 
@@ -50,7 +50,7 @@ int main()
     printf("--------------------------------\n");
 
     // output
-    printf("Employees ID = %s\n", employeesid);
+    printf("Employees ID = %d\n", employeesid);
     printf("Salary = U$ %.2f \n", total_salary);
 
     return 0;
